@@ -9,6 +9,10 @@ In the financial sector, a key challenge is accurately assessing the risk of loa
 The data used for this project is from Lending Club and was sourced from [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club). The goal is to provide a data-driven tool that helps financial institutions better understand their current portfolio risk and supports informed decision-making for future lending strategies.
 
 
+## Demo Walkthrough
+![GIF](images/live_demo.gif)
+
+
 ## Technical Stack
 - **Python**: Primary language for data processing and model building
 - **NumPy & pandas**: Data manipulation, analysis, and numerical operations
