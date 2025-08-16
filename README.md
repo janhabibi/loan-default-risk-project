@@ -8,10 +8,9 @@ In the financial sector, a key challenge is accurately assessing the risk of loa
 
 The data used for this project is from Lending Club and was sourced from [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club). The goal is to provide a data-driven tool that helps financial institutions better understand their current portfolio risk and supports informed decision-making for future lending strategies.
 
-
 ## Demo Walkthrough
 ![GIF](images/live_demo.gif)
-
+- **Demo Website:** [Link to demo](https://loan-default-risk-project.streamlit.app/)
 
 ## Technical Stack
 - **Python**: Primary language for data processing and model building
@@ -19,10 +18,9 @@ The data used for this project is from Lending Club and was sourced from [Kaggle
 - **scikit-learn**: Logistic regression model building and evaluation
 - **matplotlib & seaborn**: Visualizations for Exploratory Data Analysis (EDA)
 
-
 ## Project Structure & Methodology
 
-The project follows a standard data science workflow, from **data preparation** to **model evaluation**.
+The project follows a standard data science workflow, from data preparation to model deployment and evaluation. For a detailed, step-by-step walkthrough of the code, please refer to the [Jupyter Notebook](loan_default_risk_prediction.ipynb) in this repository.
 
 ### 1. Data Wrangling
 The initial dataset was loaded, and crucial data cleaning steps were performed. This included converting key categorical features into a numerical format suitable for modeling:
@@ -40,8 +38,6 @@ The cleaned data was analyzed to identify trends and relationships. Key visualiz
 | **Feature Distributions** | Histograms and box plots for `loan_amnt`, `annual_inc`, and `dti` | ![Image](images/feature_distributions.png) |
 | **Correlation Analysis** | Heatmap showing relationships between variables, e.g., negative correlation between `grade_num` and `fico_range_high`/`fico_range_low` and positive correlation between `loan_amnt` and `term` | ![Image](images/correlation_analysis.png) |
 
-*Suggested: Add images of charts here for better visual presentation.*
-
 ### 3. Modeling & Evaluation
 A logistic regression model was trained on the preprocessed data to predict the default status. The model's performance was evaluated using several key metrics:
 
@@ -51,8 +47,3 @@ A logistic regression model was trained on the preprocessed data to predict the 
 
 | ![Image](images/roc_curve.png) | ![Image](images/confusion_matrix.png) | ![Image](images/feature_importance.png) |
 |------|------|-----|
-
-
-## References
-- **Jupyter Notebook:** [Link to notebook](loan_default_risk_prediction.ipynb)  
-- **Demo Website:** [Link to demo](https://loan-default-risk-project.streamlit.app/)
