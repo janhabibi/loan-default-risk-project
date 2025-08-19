@@ -6,7 +6,7 @@ model = joblib.load("loan_default_model.pkl")
 
 st.title("Loan Default Risk Predictor")
 st.write("By Daniel (Euichan) Kim")
-st.markdown("[View project on GitHub](https://github.com/danielkim-im/loan-default-risk-project)")
+st.markdown("[View EDA on GitHub](https://github.com/danielkim-im/loan-default-risk-project/blob/main/loan_default_risk_prediction.ipynb)")
 
 st.markdown("---")
 
